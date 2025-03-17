@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "name": "capybara",
+  "version": "1.0.0",
+  "description": "Gosto muito de jogos de evolução linear, ainda mais de um animal tão fofo e adorável.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yEmmanuelAccount/Capybara.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yEmmanuelAccount/Capybara/issues"
+  },
+  "homepage": "https://github.com/yEmmanuelAccount/Capybara#readme"
+}
