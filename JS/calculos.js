@@ -45,10 +45,10 @@ function loadData() {
 ========================== */
 
 /**
- * Converte uma string com formato "texto e número" (ex.: "6M") para um número real.
+ * Converte uma string com formato "texto e número" (ex.: "6M" ou "3,5M") para um número real.
  */
 function parseNumber(value) {
-  value = value.trim().toLowerCase();
+  value = value.trim().toLowerCase().replace(',', '.');
   const multipliers = {
     'k': 1e3,
     'm': 1e6,
