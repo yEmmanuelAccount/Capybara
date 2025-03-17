@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #ff7f00;  /* destaque laranja */
+    --secondary-color: #ffa500;  /* variação de laranja */
+    --background-color: #222;    /* fundo escuro */
+    --text-color: #fff;          /* texto branco para contraste */
+    --card-bg: #333;
+    --border-color: #555;
+  }
+  
